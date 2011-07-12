@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace TraceWinResources
 {
-    class Coordinator
+    public class Coordinator
     {
         public Config config = null;
 
@@ -18,7 +18,14 @@ namespace TraceWinResources
         {
             
             List<string> execs = new List<string>();
-            List<string> dirs = FileHelper.GetFilesRecursive(@config.GetInspectPath());
+            List<string> dirs = new List<string>();
+
+            foreach(string e in config.GetInspectPath())
+            {
+                dirs.AddRange(FileHelper.GetFilesRecursive(@e));
+            }
+            
+            
             foreach (string p in dirs)
             {
                 if (p.Contains(".exe")) execs.Add(p);
