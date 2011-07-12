@@ -24,7 +24,9 @@ namespace TraceWinResources
                         {
                             config.SetInspectPath(reader.GetAttribute(0));
                             config.SetResultPath(reader.GetAttribute(1));
+                            //TODO: add exception handling
                             config.SetInterval(Int32.Parse(reader.GetAttribute(2)));
+                            //TODO: add exception handling
                             config.SetVerbose(Boolean.Parse(reader.GetAttribute(3)));
                             
                         }
