@@ -2,7 +2,7 @@
 using System.IO;
 using System;
 
-static class FileHelper
+public static class FileHelper
 {
     public static List<string> GetLogged(string resultPath)
     {
@@ -63,5 +63,13 @@ static class FileHelper
             }
         }
         return result;
+    }
+
+    public static void WriteLog(String logLine) 
+    {
+        StreamWriter vWriter = new StreamWriter(@"c:\windows\temp\tracewin.log", true);
+        vWriter.WriteLine(DateTime.Now.ToString()+": "+logLine);
+        vWriter.Flush();
+        vWriter.Close();
     }
 }

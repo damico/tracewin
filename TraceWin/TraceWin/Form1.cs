@@ -20,6 +20,7 @@ namespace TraceWin
         public Form1()
         {
             InitializeComponent();
+            
             button1.Enabled = false;
             button2.Enabled = false;
             WindowsIdentity identity = WindowsIdentity.GetCurrent();
@@ -37,17 +38,42 @@ namespace TraceWin
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            String emsg = "Invalid xml config file";
             XmlUtils xmlUtil = new XmlUtils();
-            Config config = xmlUtil.readConfig(this.xmlPath);
-            Coordinator worker = new Coordinator(config);
-            Thread jobThread = new Thread(new ThreadStart(worker.TraceJob));
-            jobThread.Start();
 
-            button1.Text = "running in loop...";
-            button1.Enabled = false;
-            button2.Enabled = true;
-            pictureBox1.Image = TraceWin.Properties.Resources.progress2;
+            Config config = null;
+            
+            try
+            {
+                config = xmlUtil.readConfig(this.xmlPath);
+            }catch(Exception e1){
+                FileHelper.WriteLog("ERROR = " + emsg + "[" + e1.Message + "]");
+            }
+            
+            if (config != null)
+            {
+                try
+                {
+                    Coordinator worker = new Coordinator(config);
+                    Thread jobThread = new Thread(new ThreadStart(worker.TraceJob));
+                    jobThread.Start();
+                }
+                catch (Exception e2)
+                {
+                    FileHelper.WriteLog("ERROR = " + emsg + "[" + e2.Message + "]");
+                }
+                button1.Text = "running in loop...";
+                button1.Enabled = false;
+                button2.Enabled = true;
+                pictureBox1.Image = TraceWin.Properties.Resources.progress2;
+            }
+            else
+            {
+                
+                FileHelper.WriteLog("ERROR = " + emsg);
+                MessageBox.Show(emsg);
 
+            }
             
         }
 
@@ -75,7 +101,7 @@ namespace TraceWin
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.Text = Constants.APP_NAME + " " + Constants.APP_VERSION;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -84,6 +110,11 @@ namespace TraceWin
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

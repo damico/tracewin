@@ -29,7 +29,7 @@ namespace TraceWinResources
                             string pattern = process[i].MainModule.FileName + " ; " + module.FileName;
                             if (excList == null || !excList.Contains(pattern))
                             {
-                                Console.WriteLine(pattern);
+                                FileHelper.WriteLog("INFO = TraceWinService started.");
                                 FileHelper.WriteLine2File(pattern, resultPath);
 
                             }
@@ -37,7 +37,7 @@ namespace TraceWinResources
                     }
                 }
                 catch (Exception e) {
-                    Console.WriteLine(e.Message);
+                    FileHelper.WriteLog("ERROR = " + e.Message);
                 }
                 
 
