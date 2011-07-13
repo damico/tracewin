@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<tracewinresources>
+  <config resultpath="C:\Windows\Temp\result.csv" interval="60" verbose="true" />
+  <inspect path="C:\Windows\system\" />
+  <inspect path="C:\Program Files\" />
+</tracewinresources>

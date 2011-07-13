@@ -89,9 +89,10 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(4, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 13);
+            this.label1.Size = new System.Drawing.Size(228, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "InfoSERVER SA [http://infoserver.com/oss]";
+            this.label1.Text = "InfoSERVER SA [http://infoserver.com.br/oss]";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -130,7 +131,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "TraceWin [Desktop] 0.1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

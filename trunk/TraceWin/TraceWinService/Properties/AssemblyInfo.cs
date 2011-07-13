@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TraceWinCLI")]
+[assembly: AssemblyTitle("TraceWinService")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TraceWinCLI")]
+[assembly: AssemblyProduct("TraceWinService")]
 [assembly: AssemblyCopyright("Copyright ©  2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("985bacc5-eab9-4816-98c8-193b5524b1a8")]
+[assembly: Guid("7bf3196f-b8be-4e1c-b1f4-ac1c8957d935")]
 
 // Version information for an assembly consists of the following four values:
 //

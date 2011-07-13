@@ -5,8 +5,10 @@ using System.Text;
 
 namespace TraceWinResources
 {
-    class Constants
+    public class Constants
     {
-        public const string CONFIG_FILE_PATH = @"C:\TraceWinResources\config.xml";
+        public const string CONFIG_FILE_PATH = @"tracewinconfig.xml";
+        public const string APP_NAME = "TraceWin [Desktop]";
+        public const string APP_VERSION = "0.4";
     }
 }
