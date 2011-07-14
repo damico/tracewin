@@ -3,5 +3,4 @@
 = Development Requirements =
 
   * Microsoft Visual Studio 2010
-  * Inno Setup Installer [http://www.jrsoftware.org/isinfo.php]
   * Visual Studio SVN plugin [http://ankhsvn.open.collab.net/]
