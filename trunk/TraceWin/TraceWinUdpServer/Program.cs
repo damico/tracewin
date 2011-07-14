@@ -21,6 +21,7 @@ namespace TraceWinUdpServer
             
             }
             catch (Exception e) {
+                Console.WriteLine("ERROR = Invalid PORT: " + e.Message);
                 FileHelper.WriteLog("ERROR = Invalid PORT: "+e.Message);
             }
               
