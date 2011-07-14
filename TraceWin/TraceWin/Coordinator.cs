@@ -31,7 +31,7 @@ namespace TraceWinResources
                 if (p.Contains(".exe")) execs.Add(p);
             }
 
-            Tracer tracer = new Tracer(config.GetResultPath());
+            Tracer tracer = new Tracer(config);
             while (true)
             {
                 tracer.DoTrace(execs, FileHelper.GetLogged(config.GetResultPath()));

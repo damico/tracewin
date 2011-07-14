@@ -1,16 +1,49 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System;
+using System.Net;
 
 public static class FileHelper
 {
+    public static string GenResultFileName() {
+
+        string resultFileName = null;
+
+        
+        string strHostName = Dns.GetHostName();
+        Console.WriteLine("Local Machine's Host Name: " + strHostName);
+
+        IPHostEntry ipEntry = Dns.GetHostEntry(strHostName);
+        IPAddress[] addr = ipEntry.AddressList;
+
+        for (int i = 0; i < addr.Length; i++)
+        {
+            string e = addr[i].ToString();
+            if(!e.Contains("127.0.0.1") && !e.Contains("0.0.0.0")) resultFileName = e;
+            break;
+        }
+
+        resultFileName = resultFileName.Replace(":","");
+        resultFileName = resultFileName.Replace("%", "");
+
+        resultFileName = "tracewin_"+ resultFileName+"_" + System.Environment.MachineName;
+
+       
+
+        return resultFileName;
+    
+    }
+
     public static List<string> GetLogged(string resultPath)
     {
         List<string> result = null;
 
+        
+
         try
         {
-            string[] lines = System.IO.File.ReadAllLines(@resultPath);
+            //WriteLog("===> " + resultPath + "\\" + GenResultFileName());
+            string[] lines = System.IO.File.ReadAllLines(@resultPath + "\\" + GenResultFileName()+".csv");
             result = new List<string>();
             foreach (string line in lines)
             {
@@ -27,8 +60,9 @@ public static class FileHelper
 
     public static void WriteLine2File(string line, string path)
     {
-        using (System.IO.StreamWriter file = new System.IO.StreamWriter(@path, true))
+        using (System.IO.StreamWriter file = new System.IO.StreamWriter(@path + "\\" + GenResultFileName()+".csv", true))
         {
+            //WriteLog("---> "+ path + "\\" + GenResultFileName());
             file.WriteLine(line);
         } 
     }
