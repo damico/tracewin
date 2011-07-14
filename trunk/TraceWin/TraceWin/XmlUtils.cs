@@ -31,6 +31,8 @@ namespace TraceWinResources
                             config.SetInterval(Int32.Parse(reader.GetAttribute(1)));
                             //TODO: add exception handling
                             config.SetVerbose(Boolean.Parse(reader.GetAttribute(2)));
+                            config.SetUdpServer(reader.GetAttribute(3));
+                            config.SetUdpPort(reader.GetAttribute(4));
 
                         }
                         else if (reader.Name == "inspect")

@@ -64,13 +64,31 @@
         "Entry"
         {
         "MsmKey" = "8:_B8F63310CC8113551044918BA76C1B51"
+        "OwnerKey" = "8:_EE876C1A67CF4CB5A98EA7838561C5C7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B8F63310CC8113551044918BA76C1B51"
         "OwnerKey" = "8:_31CACEA0D5ED4D9995773D90A0BE352C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EE876C1A67CF4CB5A98EA7838561C5C7"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_0B168FFAC7ED43D9AB222F0B591F4F2B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_EE876C1A67CF4CB5A98EA7838561C5C7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -235,6 +253,20 @@
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_57970110887F4E56A3A713A525996F4B"
+            {
+            "Name" = "8:Primary output from TraceWinUdpServer (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_EE876C1A67CF4CB5A98EA7838561C5C7"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:4"
+            "Identifier" = "8:_04EE81A3_6EB3_400A_86AD_8E84065D3419"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
             "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_696E755E135F466584FE73562BECC08D"
             {
             "Name" = "8:Primary output from TraceWinService (Active)"
@@ -353,6 +385,11 @@
             "AssemblyAsmDisplayName" = "8:TraceWin, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
+                    "_B8F63310CC8113551044918BA76C1B51"
+                    {
+                    "Name" = "8:TraceWin.exe"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:TraceWin.exe"
             "TargetName" = "8:"
@@ -440,7 +477,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TraceWin"
         "ProductCode" = "8:{15FED8A5-F106-420E-BE73-12F82DC40E6F}"
-        "PackageCode" = "8:{5CF5D913-3EBD-4E81-B11E-7652F10E4F9F}"
+        "PackageCode" = "8:{2A22F54A-44C8-49DB-AD8F-E6E89B8988FC}"
         "UpgradeCode" = "8:{4C7C8B01-D63B-478E-B993-1E5D4295FAEE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1080,6 +1117,34 @@
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_EE876C1A67CF4CB5A98EA7838561C5C7"
+            {
+            "SourcePath" = "8:..\\TraceWinUdpServer\\obj\\x86\\Debug\\TraceWinUdpServer.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_21513016D64740F4800E1FE41D5E75D4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{31BA70D3-3D2F-4203-A210-850EB4B84F39}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {

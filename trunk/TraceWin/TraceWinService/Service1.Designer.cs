@@ -28,10 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon();
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            // 
+            // Service1
+            // 
             this.ServiceName = "Service1";
+
         }
 
         #endregion
+
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
