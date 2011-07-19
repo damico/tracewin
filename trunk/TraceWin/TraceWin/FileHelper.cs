@@ -52,7 +52,7 @@ public static class FileHelper
         }
         catch (Exception e)
         {
-            Console.WriteLine(e.Message);
+            WriteLog("ERROR: " + e.Message);
         }
         return result;
     }
@@ -84,7 +84,7 @@ public static class FileHelper
             try
             {
 
-                result.AddRange(Directory.GetFiles(dir, "*.*"));
+                result.AddRange(Directory.GetFiles(dir, "*.exe"));
 
                 foreach (string dn in Directory.GetDirectories(dir))
                 {
@@ -93,7 +93,7 @@ public static class FileHelper
             }
             catch(Exception e)
             {
-                Console.WriteLine(e.Message);
+                WriteLog("ERROR: "+e.Message);
             }
         }
         return result;
