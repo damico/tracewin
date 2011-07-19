@@ -33,16 +33,24 @@ namespace TraceWinResources
 
             Process[] process = Process.GetProcesses();
 
+            string pattern = "empty";
+            string currentProc = "empty";
+            string procDetails = "empty";
+
             for (int i = 0; i < process.Length; i++)
             {
                 try
                 {
-                    
-                    if (traceableList.Contains(process[i].MainModule.FileName))
+                    currentProc = process[i].MainModule.FileName;
+                    procDetails = process[i].Threads.Count + " : " + process[i].MainModule.ModuleName + " : " + process[i].GetType();
+
+
+
+                    if (traceableList.Contains(currentProc))
                     {
                         foreach (ProcessModule module in process[i].Modules)
                         {
-                            string pattern = process[i].MainModule.FileName + "; " + module.FileName;
+                            pattern = process[i].MainModule.FileName + "; " + module.FileName;
                             if (excList == null || !excList.Contains(pattern))
                             {
                                 //FileHelper.WriteLog("INFO = TraceWinService started.");
@@ -63,14 +71,16 @@ namespace TraceWinResources
                                 }
 
                             }
+                            pattern = "empty";
                         }
                     }
                 }
-                catch (Exception e) {
-                    FileHelper.WriteLog("ERROR = " + e.Message);
+                catch (Exception e)
+                {
+                    FileHelper.WriteLog("ERROR = " + e.Message + " | Pattern: " + pattern + " | CurrentProc: " + currentProc + " | ProcDetails: " + procDetails);
+                    
+                    procDetails = "empty";
                 }
-                
-
             }
         
         }

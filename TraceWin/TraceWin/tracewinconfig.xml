@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <tracewinresources>
   <config resultpath="C:\Windows\Temp" interval="60" verbose="true" udpserver="" udpport="9050" />
-  <inspect path="C:\Windows\system\" />
+  <inspect path="C:\Program Files (x86)\GIMP-2.0\" />
   <inspect path="C:\Program Files\" />
 </tracewinresources>

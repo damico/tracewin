@@ -29,6 +29,7 @@ namespace TraceWinResources
             foreach (string p in dirs)
             {
                 if (p.Contains(".exe")) execs.Add(p);
+                FileHelper.WriteLog("INFO: Scanned FS = " + p);
             }
 
             Tracer tracer = new Tracer(config);
