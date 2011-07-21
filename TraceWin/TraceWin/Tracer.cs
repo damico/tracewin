@@ -41,13 +41,16 @@ namespace TraceWinResources
             {
                 try
                 {
-                    currentProc = process[i].MainModule.FileName;
-                    procDetails = process[i].Threads.Count + " : " + process[i].MainModule.ModuleName + " : " + process[i].GetType();
+                    currentProc = (process[i].MainModule.FileName).ToLower();
+                    procDetails = "Threads: "+process[i].Threads.Count + " : " + process[i].MainModule.ModuleName + " : " + process[i].GetType();
+
+                    //FileHelper.WriteLog("INFO: Scanned PROC = " + FileHelper.ExtractFileName(currentProc));
 
 
 
-                    if (traceableList.Contains(currentProc))
-                    {
+                    if (traceableList.Contains( FileHelper.ExtractFileName(currentProc) ))
+                    { 
+                        
                         foreach (ProcessModule module in process[i].Modules)
                         {
                             pattern = process[i].MainModule.FileName + "; " + module.FileName;
@@ -78,7 +81,7 @@ namespace TraceWinResources
                 catch (Exception e)
                 {
                     FileHelper.WriteLog("ERROR = " + e.Message + " | Pattern: " + pattern + " | CurrentProc: " + currentProc + " | ProcDetails: " + procDetails);
-                    
+                    if (currentProc.Length > 1 && (excList == null || !excList.Contains(currentProc + "; "))) FileHelper.WriteLine2File(currentProc + "; ", config.GetResultPath());
                     procDetails = "empty";
                 }
             }

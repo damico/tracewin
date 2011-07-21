@@ -106,4 +106,20 @@ public static class FileHelper
         vWriter.Flush();
         vWriter.Close();
     }
+
+    public static string ExtractFileName(string path) 
+    {
+        string e = path.ToLower();
+        char[] ce = e.ToCharArray();
+
+        for (int i = ce.Length - 1; i >= 0; i--)
+        {
+            if (ce[i] == '\\')
+            {
+                e = e.Substring(i + 1, (e.Length - i)-1);
+                break;
+            }
+        }
+        return e;
+    }
 }

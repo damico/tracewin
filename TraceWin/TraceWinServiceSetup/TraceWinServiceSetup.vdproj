@@ -15,25 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0B168FFAC7ED43D9AB222F0B591F4F2B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0B669111DC9C43AD918709C77A22BD0F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_26A09D67B8B9407C8379F6AA61049227"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_31CACEA0D5ED4D9995773D90A0BE352C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,7 +27,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_51F74EF9DE50470A952AF9AA7F22D2E7"
+        "MsmKey" = "8:_A5D0EEE580A54846A47D556AADCA2301"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -57,62 +39,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B8F63310CC8113551044918BA76C1B51"
-        "OwnerKey" = "8:_0B168FFAC7ED43D9AB222F0B591F4F2B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B8F63310CC8113551044918BA76C1B51"
-        "OwnerKey" = "8:_EE876C1A67CF4CB5A98EA7838561C5C7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B8F63310CC8113551044918BA76C1B51"
-        "OwnerKey" = "8:_31CACEA0D5ED4D9995773D90A0BE352C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EE876C1A67CF4CB5A98EA7838561C5C7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0B168FFAC7ED43D9AB222F0B591F4F2B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EE876C1A67CF4CB5A98EA7838561C5C7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_51F74EF9DE50470A952AF9AA7F22D2E7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_31CACEA0D5ED4D9995773D90A0BE352C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0B669111DC9C43AD918709C77A22BD0F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B8F63310CC8113551044918BA76C1B51"
+        "OwnerKey" = "8:_A5D0EEE580A54846A47D556AADCA2301"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -197,101 +125,59 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_00B84151444345BFBD413C693BC9E75C"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_4B761249856448019D2FA4FF2257D906"
             {
-            "Name" = "8:Primary output from TraceWinService (Active)"
+            "Name" = "8:Primary output from TraceWin (Debug x64)"
             "Condition" = "8:"
-            "Object" = "8:_0B168FFAC7ED43D9AB222F0B591F4F2B"
+            "Object" = "8:_A5D0EEE580A54846A47D556AADCA2301"
             "FileType" = "3:2"
             "InstallAction" = "3:3"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_5CDD605E_B0B6_4E90_9F41_D8E7B0617CF9"
+            "Identifier" = "8:_4596C8CB_828B_4104_AF08_C852D25A23E7"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_105C616022714D108F21FED13C3C4550"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_948FCDD1FC344DFF9B6BC9D779521067"
             {
-            "Name" = "8:Primary output from TraceWinService (Active)"
+            "Name" = "8:Primary output from TraceWin (Debug x64)"
             "Condition" = "8:"
-            "Object" = "8:_0B168FFAC7ED43D9AB222F0B591F4F2B"
-            "FileType" = "3:2"
-            "InstallAction" = "3:1"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:1"
-            "Identifier" = "8:_EFA899AF_9C6F_4EB5_A501_E3B47B313E63"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_228F775B3C0A42EE85C6637B93F21162"
-            {
-            "Name" = "8:Primary output from TraceWinService (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_0B168FFAC7ED43D9AB222F0B591F4F2B"
-            "FileType" = "3:2"
-            "InstallAction" = "3:2"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:1"
-            "Identifier" = "8:_7609F2FD_388B_4ADB_BB15_3999C230A072"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_2C98CC1DDF01430E87420A8A49FB1DF3"
-            {
-            "Name" = "8:Primary output from TraceWin (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_0B669111DC9C43AD918709C77A22BD0F"
-            "FileType" = "3:2"
-            "InstallAction" = "3:1"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:3"
-            "Identifier" = "8:_68A08345_2ADD_4D12_A006_F6B83251218F"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_57970110887F4E56A3A713A525996F4B"
-            {
-            "Name" = "8:Primary output from TraceWinUdpServer (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_EE876C1A67CF4CB5A98EA7838561C5C7"
-            "FileType" = "3:2"
-            "InstallAction" = "3:1"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:4"
-            "Identifier" = "8:_04EE81A3_6EB3_400A_86AD_8E84065D3419"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_696E755E135F466584FE73562BECC08D"
-            {
-            "Name" = "8:Primary output from TraceWinService (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_0B168FFAC7ED43D9AB222F0B591F4F2B"
+            "Object" = "8:_A5D0EEE580A54846A47D556AADCA2301"
             "FileType" = "3:2"
             "InstallAction" = "3:4"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_41068413_BEB6_4778_BBD5_4D9D80FF7370"
+            "Identifier" = "8:_7CD98678_EAC3_4CB1_ABB3_24EE1D38DFC2"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_A95FDAF22EF441B483AECCD68EA74FD5"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_C573786282814F48B1B5CCC840C69502"
             {
-            "Name" = "8:Primary output from TraceWinCLI (Active)"
+            "Name" = "8:Primary output from TraceWin (Debug x64)"
             "Condition" = "8:"
-            "Object" = "8:_31CACEA0D5ED4D9995773D90A0BE352C"
+            "Object" = "8:_A5D0EEE580A54846A47D556AADCA2301"
             "FileType" = "3:2"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
-            "Sequence" = "3:2"
-            "Identifier" = "8:_8815BBA5_96C6_4D56_9C71_BA640D67EE8D"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_FD959162_7787_40D4_8ABA_E5885FFDDBBB"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_D81A58DCF31F428A9CE1B0F0739B5E91"
+            {
+            "Name" = "8:Primary output from TraceWin (Debug x64)"
+            "Condition" = "8:"
+            "Object" = "8:_A5D0EEE580A54846A47D556AADCA2301"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_B3511CFB_E8A0_4B34_9166_9DAC7608DB24"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -323,7 +209,7 @@
             "SourcePath" = "8:..\\TraceWin\\tracewinconfig.xml"
             "TargetName" = "8:tracewinconfig.xml"
             "Tag" = "8:"
-            "Folder" = "8:_21513016D64740F4800E1FE41D5E75D4"
+            "Folder" = "8:_A1947F6FD1274AF784B72CEC13B08444"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -363,7 +249,7 @@
             "SourcePath" = "8:..\\TraceWin\\TraceWin.ico"
             "TargetName" = "8:TraceWin.ico"
             "Tag" = "8:"
-            "Folder" = "8:_21513016D64740F4800E1FE41D5E75D4"
+            "Folder" = "8:_A1947F6FD1274AF784B72CEC13B08444"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -376,37 +262,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B8F63310CC8113551044918BA76C1B51"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:TraceWin, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_B8F63310CC8113551044918BA76C1B51"
-                    {
-                    "Name" = "8:TraceWin.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:TraceWin.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_21513016D64740F4800E1FE41D5E75D4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
@@ -449,6 +304,17 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_A1947F6FD1274AF784B72CEC13B08444"
+            {
+            "Name" = "8:#1935"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:ProgramFiles64Folder"
+                "Folders"
+                {
+                }
+            }
             "{1525181F-901A-416C-8A58-119130FE478E}:_E1F172FA38594743B72DD5E61AA20EF0"
             {
             "Name" = "8:#1919"
@@ -477,7 +343,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TraceWin"
         "ProductCode" = "8:{15FED8A5-F106-420E-BE73-12F82DC40E6F}"
-        "PackageCode" = "8:{2A22F54A-44C8-49DB-AD8F-E6E89B8988FC}"
+        "PackageCode" = "8:{2C7DA8AB-20C7-4D9D-BAA9-4A6837AA5524}"
         "UpgradeCode" = "8:{4C7C8B01-D63B-478E-B993-1E5D4295FAEE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -498,7 +364,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -597,20 +463,6 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F2DAF4EC1D224CFF8E2C27C3A854B6B8"
-            {
-            "Name" = "8:TraceWin"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_0B669111DC9C43AD918709C77A22BD0F"
-            "Folder" = "8:_E1F172FA38594743B72DD5E61AA20EF0"
-            "WorkingFolder" = "8:_21513016D64740F4800E1FE41D5E75D4"
-            "Icon" = "8:_B8867B7F19CC4E77AF564D2DB4B1402D"
-            "Feature" = "8:"
-            }
         }
         "UserInterface"
         {
@@ -1010,12 +862,12 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0B168FFAC7ED43D9AB222F0B591F4F2B"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A5D0EEE580A54846A47D556AADCA2301"
             {
-            "SourcePath" = "8:..\\TraceWinService\\obj\\x86\\Debug\\TraceWinService.exe"
+            "SourcePath" = "8:..\\TraceWin\\obj\\x64\\Debug\\TraceWin.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_21513016D64740F4800E1FE41D5E75D4"
+            "Folder" = "8:_A1947F6FD1274AF784B72CEC13B08444"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1030,121 +882,9 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{5004E36A-CC0B-41F1-B1DD-3C841D0F6302}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0B669111DC9C43AD918709C77A22BD0F"
-            {
-            "SourcePath" = "8:..\\TraceWin\\obj\\x86\\Debug\\TraceWin.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_21513016D64740F4800E1FE41D5E75D4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
+            "OutputConfiguration" = "8:Debug|x64"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_31CACEA0D5ED4D9995773D90A0BE352C"
-            {
-            "SourcePath" = "8:..\\TCW\\obj\\x86\\Debug\\TCW.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_21513016D64740F4800E1FE41D5E75D4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{67E3F8F0-A20D-4791-9842-98BE6E19BBDC}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_51F74EF9DE50470A952AF9AA7F22D2E7"
-            {
-            "SourcePath" = "8:..\\TraceWin\\obj\\x86\\Debug\\TraceWin.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_21513016D64740F4800E1FE41D5E75D4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_EE876C1A67CF4CB5A98EA7838561C5C7"
-            {
-            "SourcePath" = "8:..\\TraceWinUdpServer\\obj\\x86\\Debug\\TraceWinUdpServer.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_21513016D64740F4800E1FE41D5E75D4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{31BA70D3-3D2F-4203-A210-850EB4B84F39}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
