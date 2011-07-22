@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceWinCLI", "TCW\TraceWin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceWinService", "TraceWinService\TraceWinService.csproj", "{5004E36A-CC0B-41F1-B1DD-3C841D0F6302}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TraceWinServiceSetup", "TraceWinServiceSetup\TraceWinServiceSetup.vdproj", "{6A2A6445-F452-409C-8991-0CD7EC7F1C01}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceWinUdpServer", "TraceWinUdpServer\TraceWinUdpServer.csproj", "{31BA70D3-3D2F-4203-A210-850EB4B84F39}"
 EndProject
 Global
@@ -25,8 +23,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}.Debug|x64.ActiveCfg = Debug|x64
 		{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}.Debug|x64.Build.0 = Debug|x64
-		{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}.Debug|x86.ActiveCfg = Debug|x64
-		{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}.Debug|x86.Build.0 = Debug|x64
+		{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}.Debug|x86.ActiveCfg = Debug|x86
+		{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}.Debug|x86.Build.0 = Debug|x86
 		{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}.Release|x64.ActiveCfg = Release|x64
 		{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}.Release|x64.Build.0 = Release|x64
 		{590ED4D0-7FC2-4B2E-81B0-990CE02BE0DF}.Release|x86.ActiveCfg = Release|x86
@@ -47,12 +45,6 @@ Global
 		{5004E36A-CC0B-41F1-B1DD-3C841D0F6302}.Release|x64.Build.0 = Release|x64
 		{5004E36A-CC0B-41F1-B1DD-3C841D0F6302}.Release|x86.ActiveCfg = Release|x86
 		{5004E36A-CC0B-41F1-B1DD-3C841D0F6302}.Release|x86.Build.0 = Release|x86
-		{6A2A6445-F452-409C-8991-0CD7EC7F1C01}.Debug|x64.ActiveCfg = Debug
-		{6A2A6445-F452-409C-8991-0CD7EC7F1C01}.Debug|x64.Build.0 = Debug
-		{6A2A6445-F452-409C-8991-0CD7EC7F1C01}.Debug|x86.ActiveCfg = Debug
-		{6A2A6445-F452-409C-8991-0CD7EC7F1C01}.Release|x64.ActiveCfg = Release
-		{6A2A6445-F452-409C-8991-0CD7EC7F1C01}.Release|x64.Build.0 = Release
-		{6A2A6445-F452-409C-8991-0CD7EC7F1C01}.Release|x86.ActiveCfg = Release
 		{31BA70D3-3D2F-4203-A210-850EB4B84F39}.Debug|x64.ActiveCfg = Debug|x64
 		{31BA70D3-3D2F-4203-A210-850EB4B84F39}.Debug|x64.Build.0 = Debug|x64
 		{31BA70D3-3D2F-4203-A210-850EB4B84F39}.Debug|x86.ActiveCfg = Debug|x86
