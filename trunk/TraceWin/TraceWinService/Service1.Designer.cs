@@ -28,12 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon();
-            // 
-            // notifyIcon1
-            // 
-            this.notifyIcon1.Text = "notifyIcon1";
-            this.notifyIcon1.Visible = true;
             // 
             // Service1
             // 
@@ -43,6 +37,5 @@
 
         #endregion
 
-        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }

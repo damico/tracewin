@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceWinService", "TraceWin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceWinUdpServer", "TraceWinUdpServer\TraceWinUdpServer.csproj", "{31BA70D3-3D2F-4203-A210-850EB4B84F39}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TraceWinSetup", "TraceWinSetup\TraceWinSetup.vdproj", "{A64C374F-849F-48B5-930B-2AA2A52AA916}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -53,6 +55,11 @@ Global
 		{31BA70D3-3D2F-4203-A210-850EB4B84F39}.Release|x64.Build.0 = Release|x64
 		{31BA70D3-3D2F-4203-A210-850EB4B84F39}.Release|x86.ActiveCfg = Release|x86
 		{31BA70D3-3D2F-4203-A210-850EB4B84F39}.Release|x86.Build.0 = Release|x86
+		{A64C374F-849F-48B5-930B-2AA2A52AA916}.Debug|x64.ActiveCfg = Debug
+		{A64C374F-849F-48B5-930B-2AA2A52AA916}.Debug|x86.ActiveCfg = Debug
+		{A64C374F-849F-48B5-930B-2AA2A52AA916}.Debug|x86.Build.0 = Debug
+		{A64C374F-849F-48B5-930B-2AA2A52AA916}.Release|x64.ActiveCfg = Release
+		{A64C374F-849F-48B5-930B-2AA2A52AA916}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
