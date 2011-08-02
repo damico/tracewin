@@ -92,7 +92,7 @@ namespace TraceWin
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 System.IO.StreamReader sr = new System.IO.StreamReader(openFileDialog1.FileName);
-                MessageBox.Show(sr.ReadToEnd());
+                MessageBox.Show(sr.ReadToEnd(), "TraceWin Config file");
                 sr.Close();
                 this.xmlPath = openFileDialog1.FileName;
                 button1.Enabled = true;
@@ -117,6 +117,11 @@ namespace TraceWin
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://infoserver.com.br/oss"); 
         }
 
         
