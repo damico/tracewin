@@ -9,6 +9,6 @@ namespace TraceWinResources
     {
         public const string CONFIG_FILE_PATH = @"tracewinconfig.xml";
         public const string APP_NAME = "TraceWin [Desktop]";
-        public const string APP_VERSION = "0.9";
+        public const string APP_VERSION = "1.0";
     }
 }
